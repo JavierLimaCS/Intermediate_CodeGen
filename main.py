@@ -129,7 +129,7 @@ def p_parens(p):
 
 
 def p_error(p):
-    print("Syntax error in input!")
+    print("Error en la sintaxis!")
 
 
 import ply.yacc as yacc
@@ -141,8 +141,6 @@ def ejecutarParse():
     global tmp
     tmp = ''
     parser = yacc.yacc()
-    res = parser.parse("1+1-3") # aqui se escribe la cadena
-    print(res)
-    print(code3D)
+    res = parser.parse("((7 + 9)/(((3 + 1) * (6 + 7) + 8) * 7) / 9) + 100") # aqui se escribe la cadena
 
 ejecutarParse()
