@@ -1,11 +1,11 @@
-# OLC2BP_Corto2_201612098
-### Datos Estudiante
+# Intermediate Code Generation
+### Student Info
 - Javier Estuardo Lima Abrego
 - 201612098
 
-## Información General
-- Lenguaje: Python
-- Herramienta: PLY
+## General
+- Programming Language: Python
+- Parsing Tool: PLY
 
 Método Principal para ejecutar el programa en el archivo main.py
 ![image](https://user-images.githubusercontent.com/66536660/109372816-3756b900-7871-11eb-8e20-1ebf43b2ee2e.png)
